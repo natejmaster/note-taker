@@ -1,3 +1,4 @@
+//Required applications for this helper function
 const fs = require('fs');
 const util = require('util');
 
@@ -30,5 +31,5 @@ const readAndAppend = (content, file) => {
     }
   });
 };
-
+//Exports functions to be used by other documents
 module.exports = { readFromFile, writeToFile, readAndAppend };
